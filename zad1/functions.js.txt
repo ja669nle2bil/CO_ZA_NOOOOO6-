@@ -1,0 +1,5 @@
+isOdd(x){
+	return num % 2 != 0;
+}
+isEven = (x) => num % 2 ==0;
+	
