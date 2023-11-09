@@ -3,3 +3,4 @@ function sum(arr) {
 }
 console.log(sum([3,7,5]));
 
+ 
