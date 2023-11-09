@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PALA PALA</title>
+	<script>
+		let number = 0;
+		function changeNumber() {
+			/* number++; */
+			number=(number+1)%69;
+			document.getElementById("number").innerHTML= number;
+		}
+		function changeColor() {
+			let color=document.getElementById("number").style.color;
+			if(color=="red") {
+				document.getElementById("number").style.color="blue";
+			} else {
+				/* document.getElementById("number").style.color="red"; */
+				let randomColor=Math.floor(Math.random()*16777215).toString(16);
+				document.getElementById("number").style.color="#"+randomColor;
+			}
+		}
+	</script>
+	<style>
+		#number {
+			font-size: 64px;
+			font-family: Arial, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<button onClick="changeNumber()">ChangeNumber</button>
+	<button onClick="changeColor()">Change Color</button>
+	<p id="number">0</p>
+</body>
+</html>
