@@ -1,5 +1,5 @@
 # CO_ZA_NOOOOO6-
-JAVA SCRIPTY rowniez do milych panow
+JAVA SCRIPTY rowniez od milych panow ☺💆🏾‍♂️
 
 ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬  
 ████░██▄░██░░▄███▄░░████░██░░▄███▄  
