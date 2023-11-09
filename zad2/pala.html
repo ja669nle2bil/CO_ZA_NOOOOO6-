@@ -5,7 +5,8 @@
 	<script>
 		let number = 0;
 		function changeNumber() {
-			number++;
+			/* number++; */
+			number=(number+1)%69;
 			document.getElementById("number").innerHTML= number;
 		}
 		function changeColor() {
